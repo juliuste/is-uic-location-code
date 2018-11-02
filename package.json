@@ -1,7 +1,7 @@
 {
 	"name": "is-uic-location-code",
 	"description": "Check if given value is a valid UIC location code.",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"keywords": [
 		"uic",
 		"location",

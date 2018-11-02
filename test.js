@@ -10,6 +10,7 @@ tape('is-uic-location-code', t => {
 	t.false(check('8092010999'), 'incorrect code, too long')
 	t.false(check('87-0002'), 'incorrect code, contains non-numerical characters')
 	t.false(check('87a-0v2'), 'incorrect code, contains non-numerical characters')
+	t.false(check('80-00001'), 'incorrect code, contains non-numerical characters')
 	t.false(check('008000002'), 'incorrect code, padded with zeros')
 	t.false(check('729201'), 'incorrect code, too short')
 	t.false(check('80'), 'incorrect code, too short')
